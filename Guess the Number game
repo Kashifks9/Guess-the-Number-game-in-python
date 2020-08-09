@@ -1,0 +1,14 @@
+guess_counter = 0
+guess_no =9
+guess_limit =3
+
+
+while guess_counter < guess_limit :
+   guess = int(input("Guess the number: "))
+   guess_counter+=1
+   if guess== guess_no :
+       print("You won ! ")
+       break
+else:
+    print("You lose ! ")
+    //You can change the counter, the guessing number, and limits accordingly and statements also
